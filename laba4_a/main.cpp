@@ -67,7 +67,7 @@ int main() {
             return p1.year > p2.year;
             });
 
-        std::cout << "Данные обо всех не председателях, отсортированные по дате рождения:\n";
+        std::cout << "\n Данные обо всех не председателях, отсортированные по дате рождения:\n";
         for (const auto& employee : employees) {
             if (employee.position != " председатель") {
                 std::cout << "ФИО: " << employee.getname() << ", Год рождения: " << employee.getyear()
